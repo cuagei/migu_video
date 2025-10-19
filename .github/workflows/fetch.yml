@@ -31,10 +31,22 @@ jobs:
         run: |
           node fetchURLByAndroid.js
 
+      - name: Debug file check
+        run: |
+          echo "=== 当前目录结构 ==="
+          ls -R
+
       - name: Commit and Push updated IPTV file
         run: |
           git config user.name "GitHub Actions"
           git config user.email "actions@github.com"
-          git add all_channels.m3u
+          if [ -f "all_channels.m3u" ]; then
+            git add all_channels.m3u
+          elif [ -f "output/all_channels.m3u" ]; then
+            git add output/all_channels.m3u
+          else
+            echo "❌ 没找到 all_channels.m3u 文件"
+            exit 1
+          fi
           git diff --quiet || git commit -m "Update all_channels.m3u by GitHub Actions"
           git push
