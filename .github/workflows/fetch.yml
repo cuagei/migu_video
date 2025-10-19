@@ -36,17 +36,17 @@ jobs:
           echo "=== 当前目录结构 ==="
           ls -R
 
-      - name: Commit and Push updated IPTV file
+      - name: Commit and Push updated interface.txt
         run: |
           git config user.name "GitHub Actions"
           git config user.email "actions@github.com"
-          if [ -f "all_channels.m3u" ]; then
-            git add all_channels.m3u
-          elif [ -f "output/all_channels.m3u" ]; then
-            git add output/all_channels.m3u
+          if [ -f "interface.txt" ]; then
+            git add interface.txt
+          elif [ -f "output/interface.txt" ]; then
+            git add output/interface.txt
           else
-            echo "❌ 没找到 all_channels.m3u 文件"
+            echo "❌ 没找到 interface.txt 文件"
             exit 1
           fi
-          git diff --quiet || git commit -m "Update all_channels.m3u by GitHub Actions"
+          git diff --quiet || git commit -m "Update interface.txt by GitHub Actions"
           git push
