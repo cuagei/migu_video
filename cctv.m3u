@@ -1,0 +1,145 @@
+#EXTM3U
+
+#EXTINF:-1 tvg-id="CCTV1" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/CCTV1.png" group-title="最强┃央视",CCTV1
+http://127.0.0.1:35456/gaoma/cctv1.m3u8$低码 左右键可切换线路
+#EXTINF:-1 tvg-id="CCTV2" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/CCTV2.png" group-title="最强┃央视",CCTV2
+http://127.0.0.1:35456/gaoma/cctv2.m3u8$低码 左右键可切换线路
+#EXTINF:-1 tvg-id="CCTV3" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/CCTV3.png" group-title="最强┃央视",CCTV3
+http://127.0.0.1:35456/gaoma/cctv3.m3u8$低码 左右键可切换线路
+#EXTINF:-1 tvg-id="CCTV4" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/CCTV4.png" group-title="最强┃央视",CCTV4
+http://127.0.0.1:35456/gaoma/cctv4.m3u8$低码 左右键可切换线路
+#EXTINF:-1 tvg-id="CCTV5" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/CCTV5.png" group-title="最强┃央视",CCTV5
+http://127.0.0.1:35456/gaoma/cctv5.m3u8$低码 左右键可切换线路
+#EXTINF:-1 tvg-id="CCTV5+" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/CCTV5+.png" group-title="最强┃央视",CCTV5+
+http://127.0.0.1:35456/gaoma/cctv5p.m3u8$低码 左右键可切换线路
+#EXTINF:-1 tvg-id="CCTV6" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/CCTV6.png" group-title="最强┃央视",CCTV6
+http://112.27.235.94:8000/hls/7/index.m3u8
+#EXTINF:-1 tvg-id="CCTV6" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/CCTV6.png" group-title="最强┃央视",CCTV6
+http://144.123.165.186:9901/tsfile/live/0006_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 tvg-id="CCTV6" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/CCTV6.png" group-title="最强┃央视",CCTV6
+http://112.27.235.94:8000/hls/7/index.m3u8
+#EXTINF:-1 tvg-id="CCTV6" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/CCTV6.png" group-title="最强┃央视",CCTV6
+http://120.76.248.139/live/bfgd/4200000065.m3u8
+#EXTINF:-1 tvg-id="CCTV6" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/CCTV6.png" group-title="最强┃央视",CCTV6
+http://221.2.148.205:8154/tsfile/live/0006_1.m3u8?key=txiptv&playlive=1&authid=0$LR•IPV4『线路35』
+#EXTINF:-1 tvg-id="CCTV6" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/CCTV6.png" group-title="最强┃央视",CCTV6
+http://61.156.228.12:8154/tsfile/live/0006_1.m3u8?key=txiptv&playlive=1&authid=0$LR•IPV4『线路279』
+#EXTINF:-1 tvg-id="CCTV6" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/CCTV6.png" group-title="最强┃央视",CCTV6
+http://iptv.huuc.edu.cn/hls/cctv6hd.m3u8
+#EXTINF:-1 tvg-id="CCTV6" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/CCTV6.png" group-title="最强┃央视",CCTV6
+http://zzssw01.55555.io:9901/tsfile/live/0006_1.m3u8
+#EXTINF:-1 tvg-id="CCTV7" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/CCTV7.png" group-title="最强┃央视",CCTV7
+http://127.0.0.1:35456/gaoma/cctv7.m3u8$低码 左右键可切换线路
+#EXTINF:-1 tvg-id="CCTV8" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/CCTV8.png" group-title="最强┃央视",CCTV8
+http://127.0.0.1:35456/gaoma/cctv8.m3u8$低码 左右键可切换线路
+#EXTINF:-1 tvg-id="CCTV9" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/CCTV9.png" group-title="最强┃央视",CCTV9
+http://127.0.0.1:35456/gaoma/cctv9.m3u8$低码 左右键可切换线路
+#EXTINF:-1 tvg-id="CCTV10" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/CCTV10.png" group-title="最强┃央视",CCTV10
+http://127.0.0.1:35456/gaoma/cctv10.m3u8$低码 左右键可切换线路
+#EXTINF:-1 tvg-id="CCTV11" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/CCTV11.png" group-title="最强┃央视",CCTV11
+http://127.0.0.1:35456/gaoma/cctv11.m3u8$低码 左右键可切换线路
+#EXTINF:-1 tvg-id="CCTV12" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/CCTV12.png" group-title="最强┃央视",CCTV12
+http://127.0.0.1:35456/gaoma/cctv12.m3u8$低码 左右键可切换线路
+#EXTINF:-1 tvg-id="CCTV13" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/CCTV13.png" group-title="最强┃央视",CCTV13
+http://127.0.0.1:35456/gaoma/cctv13.m3u8$低码 左右键可切换线路
+#EXTINF:-1 tvg-id="CCTV14" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/CCTV14.png" group-title="最强┃央视",CCTV14
+http://127.0.0.1:35456/gaoma/cctv14.m3u8$低码 左右键可切换线路
+#EXTINF:-1 tvg-id="CCTV15" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/CCTV15.png" group-title="最强┃央视",CCTV15
+http://127.0.0.1:35456/gaoma/cctv15.m3u8$低码 左右键可切换线路
+#EXTINF:-1 tvg-id="CCTV16" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/CCTV16.png" group-title="最强┃央视",CCTV16
+http://127.0.0.1:35456/gaoma/cctv16.m3u8$低码 左右键可切换线路
+#EXTINF:-1 tvg-id="CCTV17" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/CCTV17.png" group-title="最强┃央视",CCTV17
+http://127.0.0.1:35456/gaoma/cctv17.m3u8$低码 左右键可切换线路
+
+#EXTINF:-1 tvg-id="CCTV16" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/CCTV16.png" group-title="最强┃央视",cctv16 4k_10m
+http://127.0.0.1:35456/gaoma/cctv4k16_10m.m3u8$低码 左右键可切换线路
+#EXTINF:-1 tvg-id="CCTV16" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/CCTV16.png" group-title="最强┃央视",cctv16 4k
+http://127.0.0.1:35456/gaoma/cctv4k16.m3u8$低码 左右键可切换线路
+#EXTINF:-1 tvg-id="CCTV4k" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/CCTV4K.png" group-title="最强┃央视",cctv4k_10m
+http://127.0.0.1:35456/gaoma/cctv4k_10m.m3u8$低码 左右键可切换线路
+#EXTINF:-1 tvg-id="CCTV4k" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/CCTV4K.png" group-title="最强┃央视",cctv4k
+http://127.0.0.1:35456/gaoma/cctv4k.m3u8$低码 左右键可切换线路
+#EXTINF:-1 tvg-id="CCTV8k" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/CCTV8K.png" group-title="最强┃央视",cctv8k_36m
+http://127.0.0.1:35456/gaoma/cctv8k_36m.m3u8$低码 左右键可切换线路
+#EXTINF:-1 tvg-id="CCTV8k" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/CCTV8K.png" group-title="最强┃央视",cctv8k_120m
+http://127.0.0.1:35456/gaoma/cctv8k_120m.m3u8$低码 左右键可切换线路
+#EXTINF:-1 tvg-id="CGTNALBY" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/CGTN.png" group-title="最强┃央视",cgtnar
+http://127.0.0.1:35456/gaoma/cgtnar.m3u8$低码 左右键可切换线路
+#EXTINF:-1 tvg-id="cgtndocumentary" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/CGTNDOC.png" group-title="最强┃央视",cgtndoc
+http://127.0.0.1:35456/gaoma/cgtndoc.m3u8$低码 左右键可切换线路
+#EXTINF:-1 tvg-id="CGTNEN" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/CGTN.png" group-title="最强┃央视",cgtnen
+http://127.0.0.1:35456/gaoma/cgtnen.m3u8$低码 左右键可切换线路
+#EXTINF:-1 tvg-id="cgtnfrench" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/CGTN.png" group-title="最强┃央视",cgtnfr
+http://127.0.0.1:35456/gaoma/cgtnfr.m3u8$低码 左右键可切换线路
+#EXTINF:-1 tvg-id="cgtnru" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/CGTN.png" group-title="最强┃央视",cgtnru
+http://127.0.0.1:35456/gaoma/cgtnru.m3u8$低码 左右键可切换线路
+#EXTINF:-1 tvg-id="cgtnsp" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/CGTN.png" group-title="最强┃央视",cgtnsp
+http://127.0.0.1:35456/gaoma/cgtnsp.m3u8$低码 左右键可切换线路
+#EXTINF:-1,tvg-id="cctv4k" tvg-name="cctv4k" tvg-logo="https://epg.v1.mk/logo/cctv4k.png" group-title="最强┃央视",CCTV4k
+http://ss.baihuan.online:35455/nptv/cctv4k.m3u8$咪咕
+#EXTINF:-1,tvg-id="cctv8k" tvg-name="cctv8k" tvg-logo="https://epg.v1.mk/logo/cctv8k.png" group-title="最强┃央视",CCTV8k
+http://ss.baihuan.online:35455/nptv/cctv8k.m3u8$咪咕
+#EXTINF:-1 tvg-id="凤凰资讯" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/凤凰资讯.png" group-title="youtube",鳳凰資訊
+http://127.0.0.1:9978/proxy?do=yt&proxy=http://127.0.0.1:10172&url=https://youtu.be/fN9uYWCjQaw
+#EXTINF:-1 tvg-id="TVBS NEWS" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/TVBS.png" group-title="youtube",TVBS NEWS
+http://127.0.0.1:9978/proxy?do=yt&proxy=http://127.0.0.1:10172&url=https://youtu.be/m_dhMSvUCIc
+#EXTINF:-1 tvg-id="TVBS新聞台" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/TVBS.png" group-title="youtube",TVBS 55新聞台
+http://127.0.0.1:9978/proxy?do=yt&proxy=http://127.0.0.1:10172&url=https://youtu.be/2mCSYvcfhtc
+#EXTINF:-1 tvg-id="TVBS新聞台" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/TVBS.png" group-title="youtube",TVBS 56频道
+http://127.0.0.1:9978/proxy?do=yt&proxy=http://127.0.0.1:10172&url=https://youtu.be/o_-hSMgpAzs
+#EXTINF:-1 tvg-id="寰宇新闻台" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/寰宇新闻.png" group-title="youtube",寰宇新聞
+http://127.0.0.1:9978/proxy?do=yt&proxy=http://127.0.0.1:10172&url=https://youtu.be/6IquAgfvYmc
+#EXTINF:-1 tvg-id="寰宇新闻台湾台" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/寰宇新闻台湾.png" group-title="youtube",寰宇新聞台灣
+http://127.0.0.1:9978/proxy?do=yt&proxy=http://127.0.0.1:10172&url=https://youtu.be/w87VGpgd90U
+#EXTINF:-1 tvg-id="东森新闻" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/东森新闻.png" group-title="youtube",東森新聞HD
+http://127.0.0.1:9978/proxy?do=yt&proxy=http://127.0.0.1:10172&url=https://youtu.be/V1p33hqPrUk
+#EXTINF:-1 tvg-id="东森新闻" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/东森新闻.png" group-title="youtube",東森新聞LIVE
+http://127.0.0.1:9978/proxy?do=yt&proxy=http://127.0.0.1:10172&url=https://youtu.be/E0zhe2gkXBs
+#EXTINF:-1 tvg-id="东森财经新闻" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/东森财经新闻.png" group-title="youtube",東森財經新聞HD
+http://127.0.0.1:9978/proxy?do=yt&proxy=http://127.0.0.1:10172&url=https://youtu.be/1I2iq41Akmo
+#EXTINF:-1 tvg-id="中天新聞" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/中天新闻.png" group-title="youtube",中天新聞
+http://127.0.0.1:9978/proxy?do=yt&proxy=http://127.0.0.1:10172&url=https://youtu.be/vr3XyVCR4T0
+#EXTINF:-1 tvg-id="中天2台" tvg-logo="https://epg.v1.mk/logo/中天新闻2台.png" group-title="youtube",中天2台
+http://127.0.0.1:9978/proxy?do=yt&proxy=http://127.0.0.1:10172&url=https://youtu.be/DM_PEM8GrIg
+#EXTINF:-1 tvg-id="中天亞洲台" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/中天亚洲.png" group-title="youtube",中天亞洲台
+http://127.0.0.1:9978/proxy?do=yt&proxy=http://127.0.0.1:10172&url=https://youtu.be/qN_qW6tmWDs
+#EXTINF:-1 tvg-id="中视新闻台" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/中视新闻.png" group-title="youtube",中視新聞
+http://127.0.0.1:9978/proxy?do=yt&proxy=http://127.0.0.1:10172&url=https://youtu.be/baDV1O5EBP0
+#EXTINF:-1 tvg-id="台视新闻台" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/台视新闻.png" group-title="youtube",台視新聞
+http://127.0.0.1:9978/proxy?do=yt&proxy=http://127.0.0.1:10172&url=https://youtu.be/xL0ch83RAK8
+#EXTINF:-1 tvg-id="民视新闻台" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/民视新闻.png" group-title="youtube",民視新聞
+http://127.0.0.1:9978/proxy?do=yt&proxy=http://127.0.0.1:10172&url=https://youtu.be/ylYJSBUgaMA
+#EXTINF:-1 tvg-id="三立LIVE新聞" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/三立.png" group-title="youtube",三立LIVE
+http://127.0.0.1:9978/proxy?do=yt&proxy=http://127.0.0.1:10172&url=https://youtu.be/hGJkDZDchYI
+#EXTINF:-1 tvg-id="三立LIVE新聞" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/三立.png" group-title="youtube",三立NEWS+
+http://127.0.0.1:9978/proxy?do=yt&proxy=http://127.0.0.1:10172&url=https://youtu.be/MV9mI0GChwo
+#EXTINF:-1 tvg-id="三立INEWS" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/三立INEWS.png" group-title="youtube",三立INEWS
+http://127.0.0.1:9978/proxy?do=yt&proxy=http://127.0.0.1:10172&url=https://youtu.be/pF507BLtbqU
+#EXTINF:-1 tvg-id="镜电视新闻台" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/镜电视新闻.png" group-title="youtube",鏡電視新聞
+http://127.0.0.1:9978/proxy?do=yt&proxy=http://127.0.0.1:10172&url=https://youtu.be/5n0y6b0Q25o
+#EXTINF:-1 tvg-id="CNA938" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/CNA.png" group-title="youtube",CNALives
+http://127.0.0.1:9978/proxy?do=yt&proxy=http://127.0.0.1:10172&url=https://youtu.be/XWq5kBlakcQ
+#EXTINF:-1 tvg-id="JapaNews24" tvg-logo="https://b.cuagei.nyc.mn/a/apk/JapaNews24.jpg" group-title="youtube",Japan News 24H LIVE
+http://127.0.0.1:9978/proxy?do=yt&proxy=http://127.0.0.1:10172&url=https://youtu.be/coYw-eVU0Ks
+#EXTINF:-1 tvg-id="Euronews 直播" tvg-logo="https://b.cuagei.nyc.mn/a/apk/Euronews.jpg" group-title="youtube",English Live
+http://127.0.0.1:9978/proxy?do=yt&proxy=http://127.0.0.1:10172&url=https://youtu.be/pykpO5kQJ98
+#EXTINF:-1 tvg-id="Sky News 直播" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/SKYNEWS.png" group-title="youtube",Watch Sky News
+http://127.0.0.1:9978/proxy?do=yt&proxy=http://127.0.0.1:10172&url=https://youtu.be/YDvsBbKfLPA
+#EXTINF:-1 tvg-id="8视界新闻网" tvg-logo="https://b.cuagei.nyc.mn/a/apk/8视界新闻网.jpg" group-title="youtube",8视界新闻网
+http://127.0.0.1:9978/proxy?do=yt&proxy=http://127.0.0.1:10172&url=https://youtu.be/RvSOIM620bA
+#EXTINF:-1 tvg-id="《現代嘉慶君EP1-EP60》" tvg-logo="https://epg.v1.mk/logo/华视.png" group-title="youtube",現代嘉慶君
+http://127.0.0.1:9978/proxy?do=yt&proxy=http://127.0.0.1:10172&url=https://youtu.be/E-SNFemPCrQ
+#EXTINF:-1 tvg-id="【LIVE】《萬秀豬王》" tvg-logo="https://epg.v1.mk/logo/中视.png" group-title="youtube",萬秀豬王
+http://127.0.0.1:9978/proxy?do=yt&proxy=http://127.0.0.1:10172&url=https://youtu.be/ADDSmXoPDY8
+#EXTINF:-1 tvg-id="豬哥會社" tvg-logo="https://b.cuagei.nyc.mn/a/apk/豬哥會社.jpg" group-title="youtube",豬哥會社
+http://127.0.0.1:9978/proxy?do=yt&proxy=http://127.0.0.1:10172&url=https://youtu.be/v8MUGB4vst8
+#EXTINF:-1 tvg-id="天才衝衝衝" tvg-logo="https://b.cuagei.nyc.mn/a/apk/天才衝衝衝.jpg" group-title="youtube",天才衝衝衝
+http://127.0.0.1:9978/proxy?do=yt&proxy=http://127.0.0.1:10172&url=https://youtu.be/QUcOMgw4srY
+#EXTINF:-1 tvg-id="民視戲劇館" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/民视.png" group-title="youtube",民視戲劇館
+http://127.0.0.1:9978/proxy?do=yt&proxy=http://127.0.0.1:10172&url=https://youtu.be/rTcTVZBZtYs
+#EXTINF:-1 tvg-id="國家地理動物" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/国家地理.png" group-title="youtube",國家地理動物
+http://127.0.0.1:9978/proxy?do=yt&proxy=http://127.0.0.1:10172&url=https://youtu.be/x5MkVTvOViQ
+#EXTINF:-1 tvg-id="憨豆先生 LIVE" tvg-logo="https://b.cuagei.nyc.mn/a/apk/Mr Bean LIVE.jpg" group-title="youtube",憨豆先生 LIVE
+http://127.0.0.1:9978/proxy?do=yt&proxy=http://127.0.0.1:10172&url=https://youtu.be/amzgpxDsJjQ
+#EXTINF:-1,tvg-id="ELEVENSPORTS1" tvg-name="ELEVENSPORTS1" tvg-logo="https://epg.v1.mk/logo/ELEVENSPORTS1.png" group-title="体育台",Eleven Sports 1 4K PL
+http://ef90a6cd.rossteleccom.net/iptv/2TBC4G2WWDG6RSUSN5SXSQEC/20068/index.m3u8
