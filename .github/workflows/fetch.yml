@@ -31,22 +31,21 @@ jobs:
         run: |
           node fetchURLByAndroid.js
 
-      - name: Debug file check
+      - name: Merge custom.m3u into interface.txt
         run: |
-          echo "=== 当前目录结构 ==="
-          ls -R
+          if [ -f "custom.m3u" ] && [ -f "interface.txt" ]; then
+            echo "=== 合并 custom.m3u 到 interface.txt ==="
+            cat custom.m3u >> interface.txt
+            echo "✅ 已合并 custom.m3u 内容到 interface.txt"
+          else
+            echo "❌ 找不到 custom.m3u 或 interface.txt"
+            exit 1
+          fi
 
       - name: Commit and Push updated interface.txt
         run: |
           git config user.name "GitHub Actions"
           git config user.email "actions@github.com"
-          if [ -f "interface.txt" ]; then
-            git add interface.txt
-          elif [ -f "output/interface.txt" ]; then
-            git add output/interface.txt
-          else
-            echo "❌ 没找到 interface.txt 文件"
-            exit 1
-          fi
-          git diff --quiet || git commit -m "Update interface.txt by GitHub Actions"
+          git add interface.txt
+          git diff --quiet || git commit -m "Auto-merge custom.m3u into interface.txt"
           git push
