@@ -1,47 +1,40 @@
-version: '1.0'
 name: fetch
-displayName: fetch
-triggers:
-  trigger: auto
-  pr:
+on:
+  push:
     branches:
-      precise:
-        - main
+      - main
   schedule:
-    - cron: '* 0 */3 * * ? *'
-variables:
-  global:
-    - GITHUB_TOKEN
-    - TOKEN
-    - MIGU_TOKEN
-    - USERID
-stages:
-  - name: fetchurl
-    displayName: fetchurl
-    strategy: naturally
-    trigger: auto
+    - cron: '0 */3 * * *' # 每 3 小时执行一次
+
+jobs:
+  fetchurl:
+    runs-on: ubuntu-latest
+    env:
+      USERID: ${{ secrets.USERID }}
+      MIGU_TOKEN: ${{ secrets.MIGU_TOKEN }}
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     steps:
-      - step: build@nodejs
-        name: fetchurl
-        displayName: fetchurl
-        nodeVersion: 21.5.0
-        commands:
-          - git clone https://dream-deve:${TOKEN}@gitee.com/dream-deve/migu_video.git
-          - '# git clone https://develop202:${GITHUB_TOKEN}@github.com/develop202/migu_video.git'
-          - cd migu_video
-          - '# 设置NPM源，提升安装速度'
-          - npm config set registry https://registry.npmmirror.com
-          - '# 执行编译命令 '
-          - '# npm install && node fetchURLByWasm.js'
-          - '# npm install && node fetchURLByAndroid.js'
-          - npm install && node fetchURLByAndroidV2.js
-          - git config user.name "Gitee流水线"
-          - git config user.email "actions@githee.com"
-          - git add .
-          - '# gitee流水线提交 '
-          - git diff --quiet && git diff --staged --quiet || git commit -m "Update by Gitee流水线"
-          - '# git push -f https://dream-deve:${TOKEN}@gitee.com/dream-deve/migu_video.git main:main'
-          - git push
-        strategy:
-          retry: '0'
-          timeout: 2
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 21
+
+      - name: Install dependencies
+        run: |
+          npm config set registry https://registry.npmmirror.com
+          npm install
+
+      - name: Fetch Android Video URLs
+        run: |
+          node fetchURLByAndroid.js
+
+      - name: Commit and Push updated IPTV file
+        run: |
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
+          git add all_channels.m3u
+          git diff --quiet || git commit -m "Update all_channels.m3u by GitHub Actions"
+          git push
